@@ -1,0 +1,484 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color:#2b2d42;
+}
+body{
+    scroll-behavior: smooth;
+    background-color: #2b2d42;
+}
+:root{
+ --background-color--: #2b2d42;
+}
+.head {
+    color:aliceblue;
+    font-size: 30px;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    padding-left: 16px;
+    padding-right: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #8d99ae;
+}
+.head ul{
+    background-color: #8d99ae;
+}
+ ul li{
+    list-style-type: none;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 26px;
+    margin: 0.8rem 1.5rem;
+    background-color: #8d99ae;
+}
+ ul li a{
+    color:aliceblue;
+    text-decoration: none;
+    transition: 0.4s;
+    background-color: #8d99ae;
+}
+ ul li a:hover {
+color:#2b393f;
+}
+.head h2{
+    background-color: #8d99ae;
+}
+.me{
+    width: 100%;
+    justify-content: space-between;
+    position: center;
+}
+.me h3{
+    color:#8d99ae;
+    margin-top: 80px;
+    font-size: 34px;
+    text-align: right;
+    padding-right: 50px;
+    line-height: 1.7;
+}
+.me p{
+    color: aliceblue;
+    margin-right: 50px;
+    font-size: 24px;
+    text-align: right;
+}
+.me img{
+    align-items: left;
+}
+.myinfo{
+    color: aliceblue;
+    margin-top: 180px;
+    text-align: center;
+    margin-bottom: 200px;
+    padding-right: 80px;
+}
+.myinfo h3{
+    color:#8d99ae;
+    font-size: 34px;
+    text-align: right;
+    padding-right: 30px;
+    padding-bottom: 20px;
+}
+.myinfo p{
+    color: aliceblue;
+    font-size: 24px;
+    padding-right: 30px;
+    text-align: right;
+}
+.downph {
+    height: 30px;
+    width: 90px;
+ border-radius: 25px 25px;
+ background-color: #8d99ae;
+ text-align: center;
+justify-content: center;
+margin-left: 560px;
+}
+.downph a{
+    text-align: center;
+    color:#ffffff;
+    text-decoration: none;
+    background-color: #8d99ae;
+}
+.downph:hover{
+    transform: scale(1.1);
+    transition: all 2s ease;
+}
+.languge{
+    font-family: sans-serif;
+    list-style: none;
+    padding: 0;
+}
+.mySkills{
+display: grid;
+ width: 500px;
+ margin: 60px auto;
+ color:aliceblue
+}
+.mySkills h1{
+    display: grid;
+    text-align: center;
+    font-size: 35px;
+    padding-bottom: 20px;
+    color:#8d99ae;
+}
+.mySkills li{
+    margin: 20px 0;
+}
+.bar{
+    display: grid;
+    display: block;
+    height: 2px;
+    border: 1px solid  rgba(0,0,0,0.3);
+    border-radius: 3px;
+    box-shadow: 0 0 20px #5b9edcb3;
+}
+.bar span{
+    height: 1px;
+    float: left;
+    background-color:rgb(224, 147, 254);
+}
+.html{
+    width: 100%;
+    animation: html 2s;
+}
+.css{
+    width: 80%;
+    animation: css 2s;
+}
+.javas{
+    width: 40%;
+    animation: javas 2s;
+}
+.Java{
+    width: 90%;
+    animation: Java 2s;
+}
+.cplus{
+    width: 100%;
+    animation: cplus 2s;
+}
+.sql{
+    width: 50%;
+    animation: sql 2s;
+}
+@keyframes html{
+    0%{
+    width: 0%;
+    }
+100%{
+    width: 100%;
+}
+}
+@keyframes css{
+    0%{
+    width: 0%;
+    }
+100%{
+    width: 80%;
+}
+}
+@keyframes javas{
+    0%{
+    width: 0%;
+    }
+100%{
+    width: 40%;
+}}
+@keyframes Java{
+    0%{
+    width: 0%;
+    }
+100%{
+    width: 90%;
+}}
+@keyframes cplus{
+    0%{
+    width: 0%;
+    }
+100%{
+    width: 100%;
+}}
+@keyframes sql{
+    0%{
+    width: 0%;
+    }
+100%{
+    width: 40%;
+}}
+.MyWork h3{
+    display: grid;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 35px;
+    padding-bottom: 20px;
+    padding-top: 100px;
+    color:#8d99ae;
+}
+.contener {
+    display: grid;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    display: grid;
+    background-color: aliceblue;
+    width: 300px;
+    height: 350px;
+    margin: 20px;
+    border-radius: 20px 20px 20px 20px;
+}
+.card-img{
+    background-color:aliceblue;
+    height: 230px;
+    padding-right: 90px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+.text h2{
+    display: grid;
+    background-color: aliceblue;
+    color: #146C94;
+    font-size: 28px;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.text h2 p{
+    display: grid;
+    background-color: aliceblue;
+    color: #146C94;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 10px;
+}
+.text h2 p a{
+    text-decoration: none;
+    background-color: aliceblue;
+}
+
+.c1{
+    background-image: url('img/logoweb1.jpeg');
+}
+.c2{
+    background-image: url('img/logoweb2.png');
+}.c3{
+    background-image: url('img/logoweb3.jpg');
+}
+.card:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 2s ease;
+}
+.text:hover{
+    color: rgb(247, 142, 236);
+    cursor: pointer;
+}
+.MyWork{
+    display: grid;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 38px;
+    color: aliceblue;
+}
+footer{
+    background-color:#8d99ae;
+    border-radius: 10px 10px 0 0 ;
+    padding-top: 100px;
+    padding-bottom:40px;
+    margin-top: 180px;
+    text-align: center;
+    align-items: center;
+}
+.title {
+    background-color:#8d99ae;
+}
+.title span{
+    display: grid;
+    background-color: #8d99ae;
+    color:aliceblue;
+    font-size: 30px;
+    font-weight: 150;
+}
+.title p{
+    display: grid;
+    background-color: #8d99ae;
+    color:aliceblue;
+    font-size: 26px;
+    font-weight: 100;
+}
+    .icon{
+        margin-top: 20px;
+        background-color: #8d99ae;
+    }
+    .icon img{
+        background-color: #8d99ae;
+        margin-right: 10px;
+        width: 18px;
+        transition: 0.4s;
+        margin-bottom: 10px;
+    }
+    .icon a{
+        background:#8d99ae;
+    }
+    .icon img:hover{
+        transform: scale(1.2);
+    }
+    .madeIn{
+        background-color:#8d99ae;
+        color: aliceblue;
+    }
+    .madeIn img{
+        background-color: #8d99ae;
+    }
+    .last{
+        background-color: #8d99ae;
+        margin-top: 15px;
+        color: aliceblue;
+        font-size: 16px;
+        text-align: center;
+    }
+
+                                                                         /*J A V A P A R T H E R E*/ 
+                          #me{
+                            opacity: 0;
+                            filter: blur(9px);
+                            transform:translateX(-100%);
+                            transition: all 1s;
+                            }
+                            .show{
+                            opacity: 1;
+                            filter: blur(0);
+                            transform:translateX(0);
+                            }
+                        .all{
+                        opacity: 0;
+                        filter: blur(9px);
+                        transform:translateX(-100%);
+                        transition: all 2s;
+                        }
+                        .show{
+                        opacity: 1;
+                        filter: blur(0);
+                        transform:translateX(0);
+                        }
+                        .all2{
+                            opacity: 0;
+                            filter: blur(9px);
+                            transform:translateX(-100%);
+                            transition: all 3s;
+                            }
+                            .show{
+                            opacity: 1;
+                            filter: blur(0);
+                            transform:translateX(0);
+                                }
+                          .myinfo{
+                            opacity: 0;
+                            filter: blur(9px);
+                            transform:translateX(-100%);
+                            transition: all 2s;
+                          }
+                          .show{
+                            opacity: 1;
+                            filter: blur(0);
+                            transform:translateX(0);
+                          }
+                                                                /*h e r e s i z e o f s e c r e n */
+                          
+                          @media(max-width: 990px){
+                            .head {
+                                font-size: 33px;
+                                padding-bottom: 34px;
+                                padding-top: 33px;
+                                padding-left: 6px;
+                                padding-right: 5px;
+                            }
+                            ul li{
+                                font-size: 33px;
+                                margin: 0.4rem 0.4rem;
+                                padding-left: 10px;
+                            }
+                            .me{
+                                text-align: right;
+                                padding-bottom: 180px;
+                                margin-top: 150px;
+                                background-size: 500px 500px;
+                                background-position: left;
+                                line-height: 1.3;
+                            }
+                            .me h3{
+                                font-size: 55px;
+                                text-align: right;
+                                padding-right: 15px;
+                            }
+                            .me p{
+                                font-size: 34px;
+                                text-align: right;
+                                padding-right: 10px;
+                                margin-bottom: 200px;
+                            }
+                            .me img{
+                                height: 790px;
+                                width: 790px;
+                                margin-right: 50px;
+                                justify-content: left;
+                                position: left;
+                                align-items: left;
+                            }
+                            .myinfo{
+                                margin-top: 200px;
+                                text-align: center;
+                                margin-bottom: 450px;
+                                padding-right: 40px;
+                            }
+                            .myinfo h3{
+                                font-size: 60px;
+                                padding-right: 15px;
+                            }
+                            .myinfo p{
+                                font-size: 40px;
+                                padding-right: 15px;
+                            }
+                            .downph {
+                                font-size: 30px;
+                                margin-top: 60px;
+                                height: 70px;
+                                width: 150px;
+                                margin-left: 100px;
+                            }
+                            .mySkills h1{
+                                font-size: 55px;
+                            }
+                            .MyWork h3{
+                                font-size: 55px;
+                            }
+                            .mySkills{
+                                 width: 740px;
+                                 margin: 30px auto;
+                                 margin-bottom: 300px;
+                                }
+                        .mySkills li h3{
+                            font-size: 30px;
+                        }
+                        .title span{
+                        font-size: 48px;
+                        }
+                        .title p{
+                         font-size: 48px;
+                        }
+                        .icon img{
+                            width: 33px;
+                        }
+                        .madeIn{
+                            font-size: 35px;
+                        }
+                            .last{
+                                font-size:30px;
+                            }
+                        }
+                        
